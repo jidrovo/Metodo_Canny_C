@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(algoritmo main.cpp)
+target_link_libraries( watershed2 ${OpenCV_LIBS})
